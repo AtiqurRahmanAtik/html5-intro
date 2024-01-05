@@ -1,0 +1,53 @@
+table{
+border-collapse: collapse;
+width: 50%;
+}
+th,td{
+    border: 2px solid red;
+    padding: 5px 5px;
+
+}
+.table2{
+    margin-top: 20px;
+}
+.table2 td{
+    background-color: blueviolet;
+    padding: 10px 10px;
+}
+.table2 th{
+    background-color: blue;
+    padding: 10px 10px;
+}
+
+header .nav{
+    background-color: tomato;
+    padding: 8px;
+}
+nav > ul{
+    display: flex;
+ 
+}
+nav > ul > li{
+    padding: 5px;
+    list-style-type: none;
+    position: relative;
+    left: 35%;
+    transform: translate(-35%);
+    
+}
+nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+ nav li:hover{
+    background-color: green;
+}
+   
+footer > P {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
